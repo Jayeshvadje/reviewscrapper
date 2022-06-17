@@ -1,17 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Poppins&display=swap');
 body {
-  background-color: #91ced4;
+  background-color: #EEEEEE;
+  letter-spacing : 0.09em;
 }
 body * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color:#393E46;
+}
+.form{
+border-radius: 1.6rem;
+border-radius: 21px;
+background: #EEEEEE;
+box-shadow:  22px 22px 38px #9d9d9d,
+             -22px -22px 38px #ffffff;
+}
+.submit-btn{
+  padding: 1rem;
+  background:transparent;
+  color:#393E46;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  font-size:1.2rem;
+  border-left:1px solid #393E46;
+}
+.submit-btn:hover{
 }
 
+
+.search-bar{
+padding:1rem;
+font-size:1.2rem;
+background: #EEEEEE;
+outline:none;
+border:none;
+border-radius: 21px;
+}
+
+.content h1{
+text-align: center;
+font-family: 'Crimson Text', serif;
+font-size:3rem;
+}
 .header {
   background-color: #327a81;
-  color: white;
+  color: #eeeeee;
   font-size: 1.5em;
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -107,7 +146,7 @@ table tr:nth-child(2n+1) {
 @media screen and (max-width: 500px) {
   .header {
     background-color: transparent;
-    color: white;
+    color: #222831;
     font-size: 2em;
     font-weight: 700;
     padding: 0;
